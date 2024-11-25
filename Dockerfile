@@ -1,4 +1,4 @@
-FROM traefik:3.2.0
+FROM traefik:3.2.1
 
 COPY antrema-cassl.crt /usr/local/share/ca-certificates/antrema-cassl.crt
 COPY antrema-caroot.crt /usr/local/share/ca-certificates/antrema-caroot.crt
